@@ -27,6 +27,9 @@
 #       => 1/(-iw) * (-2isinwt)
 #       => 2sinwt/w
 #
+# References: 
+#   - M. S. Wartak, Computational Photonics: An Introduction with MATLAB. Cambridge: Cambridge University Press, 2013. 
+#
 s_0=10.0; # Pulse Amplitude
 t_min=2; # Pulse Start (sec)
 t_max=10.0; # Pulse End (sec)
