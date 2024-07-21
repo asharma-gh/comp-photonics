@@ -16,7 +16,7 @@
 # We have two distributions in this example, the X and Y distributions for throws along the X and Y axis. 
 # The probability of a particular value in the span from x to x+dX is defined as p(x)dX. 
 # This choice of differentials allows for the probability distribution to be constructed by integrating over the infinitessimal areas at each point in the domain. 
-# We similarly define the distribution p(y)dY as the probability of a dart landing on the span between y and y+dY. 
+# We similarly define the distribution p(y)dY as the probability of a particular value in the span between y and y+dY. 
 # We assume the values of dX and dY to be infinitessimal such that the value of P(x) and P(y) is constant over their span for all points x and y.
 # Now, we define the probability of a set of paricular random variables having the value (x,y) as p(x)dX * p(y)dY which we define as a new function g(r)dXdY where g(r)=p(x)p(y)
 # The independent variable (r) is in polar coordinates where (r,theta) indicate the point (x,y)
@@ -40,6 +40,9 @@
 #       - m=1 creates the ordinary Gaussian Pulse
 #       - as m becomes large the pulse more closely approximates the rectangular pulse.
 # 
+# References: 
+#   - M. S. Wartak, Computational Photonics: An Introduction with MATLAB. Cambridge: Cambridge University Press, 2013. 
+#   - 
 A=1;
 sigma=30;
 N=303;
